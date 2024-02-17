@@ -1,0 +1,40 @@
+.nav{
+    padding-top: 50px;
+}
+
+.navWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navList{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navListItem a{
+    color: white;
+    font-weight: 600;
+    font-size: 14;
+    font-family: "Open Sans", sans-serif;
+}
+
+.cartBtn{
+    border: none;
+}
+
+.contacts{
+    color: white;
+    width: 160px;
+}
+
+.phoneWrapper{
+    display: flex;
+    gap: 8px;
+}
+
+.phone{
+    
+}
