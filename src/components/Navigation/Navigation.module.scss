@@ -8,6 +8,12 @@
     justify-content: space-between;
 }
 
+.content{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
 .navList{
     width: 300px;
     display: flex;
@@ -18,7 +24,10 @@
     color: white;
     font-weight: 600;
     font-size: 14;
-    font-family: "Open Sans", sans-serif;
+}
+
+.navListItem a:hover{
+    color: #BC9060;
 }
 
 .cartBtn{
@@ -33,8 +42,24 @@
 .phoneWrapper{
     display: flex;
     gap: 8px;
+    margin-bottom: 2px;
 }
 
 .phone{
-    
+ font-size: 18px;
+ font-weight: bold;
+}
+
+.contactsText{
+    font-size: 14px;
+}
+
+.btnWrapper{
+    width: 157px;
+}
+
+.line{
+    width: 1px;
+    height: 51px;
+    background-color: #fff;
 }

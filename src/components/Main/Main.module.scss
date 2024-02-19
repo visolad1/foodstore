@@ -1,7 +1,100 @@
-.main{
-    width: 100%;
-    min-height: 100vh;
-    background-image: url('../../assets/images/hero-image.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+.main {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("../../assets/images/hero-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.content {
+    width: 560px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20%;
+}
+
+.subtitle,
+.title {
+  font-weight: bold;
+  color: #d67e35;
+  font-family: "Tinos", serif;
+}
+
+.subtitle {
+  font-size: 50px;
+}
+
+.title {
+  font-size: 80px;
+  margin-bottom: 12px;
+}
+
+.textWrapper{
+    display: flex; 
+    align-items: center;
+    margin-bottom: 21px;
+}
+
+.text{
+    font-size: 16px;
+    color: white;
+    padding: 0 8px;
+}
+
+.line{
+    width: 60px;
+    height: 2px;
+    background-color: #C4C4C4;
+}
+
+.btnWrapper{
+    width: 137px;
+}
+
+.cards{
+  width: 60%;
+  height: 325px;
+  display: flex;
+  gap: 30px; 
+  position: absolute;
+  top: 87%;
+  left: 20%;
+}
+
+.card{
+  width: calc(100% / 3 - 30px);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background-color: #fff;
+  padding: 0 25px;
+  -webkit-box-shadow: 4px 18px 52px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 18px 52px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 18px 52px 0px rgba(34, 60, 80, 0.2);
+}
+
+.cardImg{
+  width: 87px;
+  height: 87px;
+  margin-bottom: 4px;
+  margin-top: 48px;
+}
+
+.cardTitle{
+  font-family: "Tinos", serif;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+.cardDescription{
+  font-size: 22px;
+  font-family: 'Tinos', serif;
+  color: #656363;
+}
+
+.cardTitleLastWord{
+  color: #BC9060;
 }

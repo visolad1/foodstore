@@ -3,10 +3,10 @@ import styles from './Navigation.module.scss'
 
 export const NavigationList = () => {
     const navList = [
-        { id: 0, name: "ГЛАВНАЯ", link: "/" },
-        { id: 1, name: "МЕНЮ", link: "/" },
-        { id: 3, name: "О НАС", link: "/" },
-        { id: 4, name: "БРОНЬ", link: "/" }
+        { id: 0, name: "ГЛАВНАЯ", link: "#main" },
+        { id: 1, name: "МЕНЮ", link: "#menu" },
+        { id: 3, name: "О НАС", link: "#about-us" },
+        { id: 4, name: "БРОНЬ", link: "#book" }
     ]
     return (
         <ul className={styles.navList}>
